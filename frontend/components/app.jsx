@@ -1,10 +1,11 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import OrderIndexContainer from './order_index_container';
+import Modal from './modal';
 const App = () => (
-
     <div>
-        <Route path="/" component={OrderIndexContainer}/>
+        <Modal/>
+        <OrderIndexContainer />
     </div>
 )
 

@@ -1,9 +1,10 @@
 import React from 'react';
-
+import { Route } from 'react-router-dom';
+import OrderIndexContainer from './order_index_container';
 const App = () => (
 
     <div>
-        This is react!
+        <Route path="/" component={OrderIndexContainer}/>
     </div>
 )
 

@@ -1,5 +1,9 @@
 var path = require("path");;
 
+
+var plugins = []; // if using any plugins for both dev and production
+var devPlugins = []; // if using any plugins for development
+
 module.exports = {
     context: __dirname,
     entry: "./frontend/index.jsx",
@@ -14,7 +18,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['env', 'react']
+                    presets: ['@babel/env', '@babel/react']
                 }
             }
         ]

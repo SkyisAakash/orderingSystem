@@ -1,6 +1,6 @@
-class Api:OrdersController < ApplicationController
+class Api::OrdersController < ApplicationController
     def index
-        render :index
+        @orders = Order.all
     end
 
     def create

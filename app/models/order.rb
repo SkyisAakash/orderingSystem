@@ -15,5 +15,11 @@
 #
 
 class Order < ApplicationRecord
+    validates :coffee, :method, :number_of_cases, :packets_per_case, :ship_date, presence: true
 
+    class << self
+        def per_page
+            25
+        end
+    end
 end

@@ -300,3 +300,297 @@ number_of_cases:"2",
 packets_per_case:"10",
 ship_date:"2018-11-10",       
 priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")
+Order.create!(              
+coffee:"Bella Donovan",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"true")
+Order.create!(              
+coffee:"Giant Steps",          
+method:"Pour Over",          
+number_of_cases:"2", 
+packets_per_case:"10",
+ship_date:"2018-11-10",       
+priority:"false")

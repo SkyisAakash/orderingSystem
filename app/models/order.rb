@@ -18,8 +18,18 @@ class Order < ApplicationRecord
     validates :coffee, :method, :number_of_cases, :packets_per_case, :ship_date, presence: true
 
     class << self
-        def per_page
-            25
+
+        def pages(per_page = 25)
+            pages = count / per_page.to_f
+            pages += 1 if pages % 1 > 0
+            pages.to_i
+        end
+
+        def paginate(page: 1, per_page: 25)
+            page = page.to_i
+            per_page = per_page.to_i
+            offset = (page - 1) * per_page
+            limit(per_page).offset(offset)
         end
     end
 end

@@ -1,13 +1,16 @@
 class Api::OrdersController < ApplicationController
     def index
-        p "here"
-       p @orders = Order.all
+       pageNum = params[:page] || 1
+       @orders = Order.paginate(page: pageNum)
+        @pages = Order.pages
+        @page = pageNum
     end
 
     def create
         @order = Order.new(order_params)
         if @order.save
             @orders = Order.all
+            @pages = Order.pages
             render :index
         else
             render json: @order.errors.full_messages, status: 422

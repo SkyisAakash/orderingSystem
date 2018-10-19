@@ -2,11 +2,17 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { openModal } from '../actions/modal_actions';
 import { removeOrderErrors, requestOrders } from '../actions/order_actions';
+import Pagination from './paginate';
 
 class OrderIndexItem extends React.Component {
 
+    constructor(props) {
+        super(props)
+        this.page = 1
+    }
+
     componentDidMount() {
-        this.props.getOrders()
+        this.props.getOrders(1)
     }
 
     findId(id) {
@@ -68,6 +74,7 @@ class OrderIndexItem extends React.Component {
                         })}
                     </table>
                 </div>
+                <Pagination />
             </div>
         )
     }
@@ -81,7 +88,7 @@ const msp = state => ({
 const mdp = dispatch => ({
     openModal: () => dispatch(openModal()),
     removeErrors: () => dispatch(removeOrderErrors()),
-    getOrders: () => dispatch(requestOrders())
+    getOrders: (page) => dispatch(requestOrders(page))
 })
 
 export default connect(msp, mdp)(OrderIndexItem);

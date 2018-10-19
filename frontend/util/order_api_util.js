@@ -1,7 +1,8 @@
-export const fetchOrders = () => {
+export const fetchOrders = (page) => {
     return $.ajax({
         url:'api/orders',
-        method:'GET'
+        method:'GET',
+        data:{page}
     });
 };
 

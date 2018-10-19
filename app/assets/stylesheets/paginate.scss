@@ -1,0 +1,32 @@
+.paginationBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.pageList {
+    display: flex;
+    flex-direction: row;
+    li {
+        color: #01A1DD;
+        list-style: none;
+        padding: 10px 15px;
+        border: 2px solid #f2f2f2;
+
+        :hover {
+            cursor: pointer;
+        }
+    }
+
+
+
+}
+#active {
+        color: white;
+        background-color: #01A1DD;
+}
+#Inactive {
+    color: gray;
+    :hover {
+        cursor: auto;
+    }
+}

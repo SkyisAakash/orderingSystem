@@ -41,9 +41,6 @@ class Modal extends React.Component {
         e.preventDefault();
         e.stopPropagation();
         this.props.createOrder(this.state)
-        .then(() => {
-            if(this.props.errors.length===0)this.props.closeModal();
-        })
     }
 
     showErrors() {

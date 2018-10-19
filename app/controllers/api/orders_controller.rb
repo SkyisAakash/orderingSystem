@@ -1,11 +1,13 @@
 class Api::OrdersController < ApplicationController
     def index
-        @orders = Order.all
+        p "here"
+       p @orders = Order.all
     end
 
     def create
         @order = Order.new(order_params)
         if @order.save
+            @orders = Order.all
             render :index
         else
             render json: @order.errors.full_messages, status: 422

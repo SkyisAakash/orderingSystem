@@ -1,0 +1,105 @@
+.mainbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstdiv {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        height: 50px;
+    }
+}
+
+.dateBlock {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E9;
+    width: fit-content;
+    align-items: center;
+}
+
+.month {
+    font-size: 14px;
+    margin: 10px 15px 3px 15px;
+}
+
+.day {
+    font-size: 20px;
+    margin: 3px 15px 10px 15px;
+}
+
+
+.heading {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.seconddiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#orderButton {
+    margin: 0px;
+    height: fit-content;
+}
+
+#indexHeading {
+    margin: 0px;
+}
+
+.indexBox {
+    border: 2px solid #E9E9E9;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.smallImage {
+    height: 20px;
+}
+
+.tableHeading {
+    color: #01A1DD;
+    font-weight: 600;
+    width: 94%;
+    border-bottom: 2px solid #E9E9E9;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th, td {
+    text-align: left;
+    padding: 10px 10px 10px 30px;
+}
+
+.viewButton {
+    width: 35px;
+}
+.table {
+    width: 100%;
+    padding-left: 30px;
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 2px solid #01A1DD;
+}
+
+.orderId {
+    color: #01A1DD;
+}
+
+.heading {
+
+}
+
+.indexbox {
+
+}

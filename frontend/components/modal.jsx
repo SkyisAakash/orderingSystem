@@ -10,13 +10,14 @@ class Modal extends React.Component {
         this.state = {
             coffee:"Bella Donovan",
             method:"",
-            number_of_cases:0,
+            number_of_cases:"",
             packets_per_case:50,
             notes:"",
             priority: false,
             ship_date:""
         }
         this.select = this.select.bind(this)
+        this.showErrors = this.showErrors.bind(this)
         this.coffee = ["Bella Donovan", "Giant Steps"]
         this.packets_per_case = [50, 25]
         this.method = ["Aeropress", "Coffee Maker", "Cold Brew", "French Press", "Pour Over"]
@@ -45,6 +46,16 @@ class Modal extends React.Component {
         })
     }
 
+    showErrors() {
+        return (
+            <ul>
+                {this.props.errors.map(error => {
+                    return <li><span className="star">{error}</span></li>
+                })}
+            </ul>
+        )   
+    }
+
     render() {
         if (!this.props.modal) return null;
         const checkBox = (this.state.priority === true) ? "checked" : "";
@@ -54,6 +65,7 @@ class Modal extends React.Component {
                     <p className="closeButton" onClick={() => this.props.closeModal()}>&times;</p>
                     <h1>Perfectly Ground Work Orders</h1>
                     <p className="gray">Please fill in the data in the form below. Fields indicated with <span className="star">*</span> are mandatory</p>
+                    {this.showErrors()}
                     <form className="orderform" onSubmit={(e) => this.processForm(e)}>
                         <div className="firstRow">
                             <div className="firstCol">
@@ -135,7 +147,7 @@ const mdp = dispatch => {
     return {
         closeModal: () => dispatch(closeModal()),
         createOrder: (order) => dispatch(createOrder(order))
-    }
+        }
 }
 
 export default connect(msp, mdp)(Modal);

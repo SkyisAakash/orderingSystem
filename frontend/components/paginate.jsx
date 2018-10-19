@@ -4,6 +4,7 @@ import { requestOrders } from '../actions/order_actions';
 
 class Paginate extends React.Component{
 
+    // Returns list of links for page numbers
     pageLink(num) {
         let name;
         if(num === this.props.page)name='active';
@@ -25,9 +26,7 @@ class Paginate extends React.Component{
     }
 
     changePage(factor) {
-        
         if(factor==="add") {
-            console.log("here");
             if(this.props.page+1<=this.props.total)this.props.fetchOrders(this.props.page+1)
         } else if(this.props.page>1)this.props.fetchOrders(this.props.page-1)
     }

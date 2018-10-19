@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-back {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.dropSelect > select, input[type="date"] {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0px;
+    background: white;
+    border: 1px solid #ddd;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+.dropSelect {
+  position: relative;
+}
+
+.dropSelect:after {
+      content: '►';
+    font: 11px "Consolas", monospace;
+    color: #bdbbbb;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 3px;
+    top: 16%;
+    position: absolute;
+    pointer-events: none;
+    border-bottom: 1px solid #bdbbbb;
+    padding: 16px;
+}
+
+input[type="date"] {
+  width: -webkit-fill-available;
+  padding: 8px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="date"]:hover {
+  pointer-events: none !important;
+}
+
+.gray {
+  color: #949494;
+}
+
+.closeButton {
+  text-align: right;
+    margin-top: -25px;
+    font-size: 25px;
+    margin-right: -20px;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 10px black;
+}
+
+.dropdownField {
+    position: relative;
+    margin: 10px 10px 10px 0px;
+    padding: 12px 15px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+    font-size: 15px;
+}
+
+.submitButton {
+  padding: 10px 15px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    background-color: #01A1DD;
+    margin: 30px 0px;
+}
+
+.star {
+  color: red;
+}
+
+.modal {
+    padding: 40px;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+    h1 {
+      margin-top: 0px;
+    }
+
+    p {
+      margin: 0px;
+    }
+}
+
+.orderform {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstRow, .thirdRow{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.numbersdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstCol, .secondCol {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+
+
+.coffeediv, .methoddiv, .datediv, .packetsdiv, .casediv{
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+}
+.coffeediv, .methoddiv, .datediv, .packetsdiv, .casediv, .secondRow, .thirdRow > label{
+  color: #949494
+}
+
+ .datediv, .packetsdiv, .casediv {
+   margin-top: 30px;
+ }
+
+.coffeediv, .casediv, .datediv {
+  margin-right: 35px;
+}
